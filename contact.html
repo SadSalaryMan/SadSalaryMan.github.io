@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SadSalaryMan Contact</title>
+    <link rel="stylesheet" type="text/css" href="style3.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SadSalaryMan Contact List</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you have any questions or would like to get in touch, feel free to
+        contact me through the information below:
+      </p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:davehatcher.business@gmail.com"
+            >davehatcher.business@gmail.com</a
+          >
+        </li>
+        <li>
+          <h3>Social Media</h3>
+          <ul>
+            <li>
+              <a href="https://www.twitter.com/MrSadSalaryMan">Twitter</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCKznswqfigip6SOn-zX5xmQ"
+                >YouTube</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mrsadsalaryman/">Instagram</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p>Or you can use the contact form below:</p>
+
+      <form action="process_contact.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+
+  <footer>&copy; 2023 SadSalaryMan. All rights reserved.</footer>
+</html>
